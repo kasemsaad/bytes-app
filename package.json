@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "bootstrap-vue-3": "^0.5.1",
     "bytes-app": "file:",
     "vue": "^3.4.38",
     "vue-router": "^4.4.3"
