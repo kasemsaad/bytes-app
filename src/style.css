@@ -19,11 +19,14 @@
 }
 .body{
   font-family: 'Montserrat Arabic Light', sans-serif; 
-
 }
-@font-face {
-  font-family: 'Montserrat Arabic Light';
+/* @font-face {
+  font-family: 'Montserrat Arabic';
   src: url('./assets/fonts/alfont_com_Montserrat-Arabic-Regular-2.ttf') format('opentype');
   font-weight:normal ;
   font-style: normal;
+} */
+@font-face {
+  font-family:Montserrat Arabic reg;
+  src: url('../src/assets/fonts/alfont_com_Montserrat-Arabic-Regular.ttf');
 }

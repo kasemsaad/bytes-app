@@ -1,6 +1,6 @@
 <template>
     <footer class="container mt-5 mb-4" dir="rtl">
-        <div class="footer-box p-5 rounded-5 bg-white">
+        <div class="footer-box p-5 rounded-5 ">
           <img src="../../assets/homeScreen/footer/Frame95631.svg" />
     
           <div class="d-flex">
@@ -97,5 +97,7 @@ export default {}
 </script>
 
 <style>
-
+.footer-box{
+background-color: rgba(255, 255, 255, 0.367);
+}
 </style>
