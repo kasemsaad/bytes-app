@@ -1,7 +1,5 @@
-
 <script>
 
-import Footer from '../footer/footer.vue';
 
 export default {
   data() {
@@ -25,8 +23,8 @@ export default {
           question: 'لماذا يعد التسويق الرقمي مهماً لعملي؟',
           answer: 'يتيح التسويق الرقمي للشركات الوصول إلى جمهور أوسع والتواصل معهم...'
         },
-        // Add more items for the left column
       ],
+      
       items2: [
         {
           question: 'ما هي فوائد التسويق عبر البريد الإلكتروني؟',
@@ -58,7 +56,6 @@ export default {
     }
   },
   components:{
-    Footer
   }
 };
 </script>
@@ -489,7 +486,7 @@ export default {
         class="pt-5"
         style="font-size: 32px; font-weight: 400; color: #454183"
       >
-        <p>نصنع لك مستقبلًا رقميًا بسرعتنا وأماننا</p>
+        <p>اطلب خدماتنا الان</p>
       </div>
       <div class="" style="font-size: 20px; color: #7b76bb">
         <p>
@@ -533,7 +530,7 @@ export default {
           placeholder="البريد الالكتروني"
         />
       </div>
-      <div class="w-100 py-5">
+      <div class="w-100 py-3">
         <button
           class="btn btn-dark rounded-5 py-1 px-5"
           style="font-weight: bold"
@@ -546,7 +543,6 @@ export default {
       </div>
     </div>
   </div>
-  <Footer />
 </template>
 
 <style scoped>

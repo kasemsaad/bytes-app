@@ -3,7 +3,9 @@ import App from './App.vue';
 import router from './router';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
+import '../src/style.css';
 import { BootstrapVue3 } from 'bootstrap-vue-3';
+
 
 
 

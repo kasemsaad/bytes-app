@@ -1,10 +1,11 @@
 <script setup>
-import HelloWorld from './components/views/Home.vue'
+import Footer from '../src/components/footer/footer.vue';
+
 </script>
 
 <template>
-
   <router-view/>
+  <Footer/>
 </template>
 
 <style scoped>
