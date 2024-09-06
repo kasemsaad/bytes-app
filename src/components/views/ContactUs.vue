@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4">
+  <div class="">
     <div dir="rtl" class="section1 w-100 d-flex flex-column">
       <div class="">
         <div class="row p-0 m-0">
@@ -298,7 +298,7 @@ export default {
 }
 .section3-box {
       background-color: rgba(255, 255, 255, 0.577);
-      background-image: url(../../assets/contactUs/section3/Retangle7.svg);
+      background-image: url(../../assets/contactUs/section3/Rectangle7.svg);
     width: 120%;
     height: 80vh;
     background-repeat: no-repeat;
