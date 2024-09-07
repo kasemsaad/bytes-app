@@ -46,6 +46,7 @@
                 <CardBlog 
                   :description="card.description"
                   :date="card.date"
+                  :img-src="card.imgsrc"
                 />
               </div>
             </div>
@@ -61,7 +62,7 @@
 
 <script>
 import CardBlog from '../blog/cardBlog.vue';
-
+import imgSrc1 from '../../assets/blog/section2/Rectangle 38.png'
 export default {
     methods: {
     loadMore() {
@@ -78,88 +79,65 @@ export default {
           title: 'أحدث الاتجاهات لتطوير الويب',
           description: 'التقنيات التي تشكل مستقبل الإنترنت',
           date: 'August 30, 2022',
-          imgsrc: 'August 30, 2022',
+          imgsrc: imgSrc1,
         },
+       
         {
           title: 'أحدث الاتجاهات لتطوير الويب',
           description: 'التقنيات التي تشكل مستقبل الإنترنت',
           date: 'August 30, 2022',
+          imgsrc: imgSrc1,
         },
+       
         {
           title: 'أحدث الاتجاهات لتطوير الويب',
           description: 'التقنيات التي تشكل مستقبل الإنترنت',
           date: 'August 30, 2022',
+          imgsrc: imgSrc1,
         },
+       
         {
           title: 'أحدث الاتجاهات لتطوير الويب',
           description: 'التقنيات التي تشكل مستقبل الإنترنت',
           date: 'August 30, 2022',
+          imgsrc: imgSrc1,
         },
+       
         {
           title: 'أحدث الاتجاهات لتطوير الويب',
           description: 'التقنيات التي تشكل مستقبل الإنترنت',
           date: 'August 30, 2022',
+          imgsrc: imgSrc1,
         },
+       
         {
           title: 'أحدث الاتجاهات لتطوير الويب',
           description: 'التقنيات التي تشكل مستقبل الإنترنت',
           date: 'August 30, 2022',
+          imgsrc: imgSrc1,
         },
+       
         {
           title: 'أحدث الاتجاهات لتطوير الويب',
           description: 'التقنيات التي تشكل مستقبل الإنترنت',
           date: 'August 30, 2022',
+          imgsrc: imgSrc1,
         },
+       
         {
           title: 'أحدث الاتجاهات لتطوير الويب',
           description: 'التقنيات التي تشكل مستقبل الإنترنت',
           date: 'August 30, 2022',
+          imgsrc: imgSrc1,
         },
+       
         {
           title: 'أحدث الاتجاهات لتطوير الويب',
           description: 'التقنيات التي تشكل مستقبل الإنترنت',
           date: 'August 30, 2022',
+          imgsrc: imgSrc1,
         },
-        {
-          title: 'أحدث الاتجاهات لتطوير الويب',
-          description: 'التقنيات التي تشكل مستقبل الإنترنت',
-          date: 'August 30, 2022',
-        },
-        {
-          title: 'أحدث الاتجاهات لتطوير الويب',
-          description: 'التقنيات التي تشكل مستقبل الإنترنت',
-          date: 'August 30, 2022',
-        },
-        {
-          title: 'أحدث الاتجاهات لتطوير الويب',
-          description: 'التقنيات التي تشكل مستقبل الإنترنت',
-          date: 'August 30, 2022',
-        },
-        {
-          title: 'أحدث الاتجاهات لتطوير الويب',
-          description: 'التقنيات التي تشكل مستقبل الإنترنت',
-          date: 'August 30, 2022',
-        },
-        {
-          title: 'أحدث الاتجاهات لتطوير الويب',
-          description: 'التقنيات التي تشكل مستقبل الإنترنت',
-          date: 'August 30, 2022',
-        },
-        {
-          title: 'أحدث الاتجاهات لتطوير الويب',
-          description: 'التقنيات التي تشكل مستقبل الإنترنت',
-          date: 'August 30, 2022',
-        },
-        {
-          title: 'أحدث الاتجاهات لتطوير الويب',
-          description: 'التقنيات التي تشكل مستقبل الإنترنت',
-          date: 'August 30, 2022',
-        },
-        {
-          title: 'أحدث الاتجاهات لتطوير الويب',
-          description: 'التقنيات التي تشكل مستقبل الإنترنت',
-          date: 'August 30, 2022',
-        },
+       
         // Add more card data here
       ],
       cardsToShow: 9, // Number of cards to show initially
